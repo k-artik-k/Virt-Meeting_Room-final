@@ -1,0 +1,79 @@
+fileFormatVersion: 2
+guid: 3d81c44e37655df4686cb03a0850ec7e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\scene.bin
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\scene.bin
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarBody_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarBody_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarBody_normal.png
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarBody_normal.png
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarHead_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarHead_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarHead_normal.png
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarHead_normal.png
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarLeftCornea_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarLeftCornea_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarLeftEyeball_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarLeftEyeball_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarLeftEyeball_normal.png
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarLeftEyeball_normal.png
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarRightCornea_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarRightCornea_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarTeethLower_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarTeethLower_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarTeethLower_normal.png
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\AvatarTeethLower_normal.png
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_bottom_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_bottom_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_bottom_normal.png
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_bottom_normal.png
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_shoes_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_shoes_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_shoes_normal.png
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_shoes_normal.png
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_top_baseColor.jpeg
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_top_baseColor.jpeg
+  - type: 1
+    originalUri: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_top_normal.png
+    assetPath: Assets\3D models\michael_afton_movinewwwwwe\textures\outfit_top_normal.png
+  reportItems: []

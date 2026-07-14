@@ -16281,10 +16281,6 @@ struct WebRpcImplementationExample_t726B374096636B95D0C0295BA5532F2165B306B5  : 
 struct WhiteboardDrawer_t9137099AC802E99BF7A7E9107C57EDF3CE9373AC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	float ___rayLength;
-	bool ___isLeftHand;
-	InputDevice_t882EE3EE8A71D8F5F38BA3F9356A49F24510E8BD ___controller;
-	bool ___triggerPrev;
-	bool ___gripPrev;
 };
 struct WorldGenerator_tE80AE7A42593FFD22C82C1ADD3355312D134B814  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -17098,11 +17094,8 @@ struct WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC  : public Mon
 	int32_t ___textureWidth;
 	int32_t ___textureHeight;
 	int32_t ___brushSize;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___drawColor;
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___eraseColor;
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___whiteboardTexture;
+	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___boardTexture;
 	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___boardRenderer;
-	bool ___isErasing;
 };
 struct XRController_tB7EBF72339C56C18DEB74B1176FD39B9C421F1E2  : public TrackedDevice_t9B8AC60AAD52E906174449ED57660F3F8A3599E9
 {
@@ -22405,12 +22398,12 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10640[6] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10641[9] = 
 {
 	static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___playerNameField)),static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___roomCodeField)),static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___passwordField)),static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___createButton)),static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___joinButton)),static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___mainSceneName)),static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___statusText)),0,static_cast<int32_t>(offsetof(RoomManager_tB80BDBB553DCBF07D23E2B80770EDD2A43945715, ___cachedRoomList)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10643[5] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10643[1] = 
 {
-	static_cast<int32_t>(offsetof(WhiteboardDrawer_t9137099AC802E99BF7A7E9107C57EDF3CE9373AC, ___rayLength)),static_cast<int32_t>(offsetof(WhiteboardDrawer_t9137099AC802E99BF7A7E9107C57EDF3CE9373AC, ___isLeftHand)),static_cast<int32_t>(offsetof(WhiteboardDrawer_t9137099AC802E99BF7A7E9107C57EDF3CE9373AC, ___controller)),static_cast<int32_t>(offsetof(WhiteboardDrawer_t9137099AC802E99BF7A7E9107C57EDF3CE9373AC, ___triggerPrev)),static_cast<int32_t>(offsetof(WhiteboardDrawer_t9137099AC802E99BF7A7E9107C57EDF3CE9373AC, ___gripPrev)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10644[8] = 
+	static_cast<int32_t>(offsetof(WhiteboardDrawer_t9137099AC802E99BF7A7E9107C57EDF3CE9373AC, ___rayLength)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10644[5] = 
 {
-	static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___textureWidth)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___textureHeight)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___brushSize)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___drawColor)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___eraseColor)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___whiteboardTexture)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___boardRenderer)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___isErasing)),};
+	static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___textureWidth)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___textureHeight)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___brushSize)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___boardTexture)),static_cast<int32_t>(offsetof(WhiteboardManager_t658CD3DAC4DBD1271521B2FB155890D61AD6D0CC, ___boardRenderer)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable10645[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};

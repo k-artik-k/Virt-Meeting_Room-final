@@ -69,12 +69,8 @@ extern void VRInputFieldFocus__ctor_m75298768B52B9F1E6D978A4723E9E97A68F76205 (v
 extern void WhiteboardDrawer_Update_m494948AB7781DC429F6E8553479ADD6A57A2EE75 (void);
 extern void WhiteboardDrawer__ctor_m035EE5F80C0AE42BA81B05B16B7587487F634EBF (void);
 extern void WhiteboardManager_Start_mA3469C0016731E4193AA0EDC6809DA81CC7C4179 (void);
-extern void WhiteboardManager_ClearBoard_m408FF888BCA427A5D9E9E1556F42EAD88EC109D7 (void);
-extern void WhiteboardManager_SetErasing_mD0D2C0B73BE079BD8E489BA6B311568F1EC44547 (void);
 extern void WhiteboardManager_Draw_mD173497A2ECF0CB5A6AEFF2AA2DCE224DC5439ED (void);
-extern void WhiteboardManager_DrawRPC_mF475A5C2B9BB143C1BB4BA9425EB5A9447A360E8 (void);
-extern void WhiteboardManager_ClearBoardRPC_mF0225ABC082C4B5AE2B38297054CE23AC409B2FB (void);
-extern void WhiteboardManager_TriggerClear_mE0316339C4496ABA34C3EF54290EA71F804CECA8 (void);
+extern void WhiteboardManager_DrawRPC_m711EAF917F1E4498E88E6104D15255F5839EF939 (void);
 extern void WhiteboardManager__ctor_mAA79B67A4AF7AC83FC4281CE2FF71EA1B55C6E7F (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
@@ -166,7 +162,7 @@ extern void TextToggleIsOnTransition_OnValueChanged_m2130BC0EA8E9ACBE55A1DB8FBEF
 extern void TextToggleIsOnTransition_OnPointerEnter_m857EAEB61AD055B19C27B7DE5BBFD0CAEBF2C41D (void);
 extern void TextToggleIsOnTransition_OnPointerExit_m19C44B773913ECEB572F90DFC2ACB123E4D9E50F (void);
 extern void TextToggleIsOnTransition__ctor_mC67BFBF0D3B3D64CDCA7F3A72AD6A8789AF07BDC (void);
-static Il2CppMethodPointer s_methodPointers[159] = 
+static Il2CppMethodPointer s_methodPointers[155] = 
 {
 	ChairSit_Start_mB715FA113A2B33C2D7DA6DB4840D3832021B9FF0,
 	ChairSit_Update_m19518E3377E51AACD82CBC7F6846021EEEA0491F,
@@ -230,12 +226,8 @@ static Il2CppMethodPointer s_methodPointers[159] =
 	WhiteboardDrawer_Update_m494948AB7781DC429F6E8553479ADD6A57A2EE75,
 	WhiteboardDrawer__ctor_m035EE5F80C0AE42BA81B05B16B7587487F634EBF,
 	WhiteboardManager_Start_mA3469C0016731E4193AA0EDC6809DA81CC7C4179,
-	WhiteboardManager_ClearBoard_m408FF888BCA427A5D9E9E1556F42EAD88EC109D7,
-	WhiteboardManager_SetErasing_mD0D2C0B73BE079BD8E489BA6B311568F1EC44547,
 	WhiteboardManager_Draw_mD173497A2ECF0CB5A6AEFF2AA2DCE224DC5439ED,
-	WhiteboardManager_DrawRPC_mF475A5C2B9BB143C1BB4BA9425EB5A9447A360E8,
-	WhiteboardManager_ClearBoardRPC_mF0225ABC082C4B5AE2B38297054CE23AC409B2FB,
-	WhiteboardManager_TriggerClear_mE0316339C4496ABA34C3EF54290EA71F804CECA8,
+	WhiteboardManager_DrawRPC_m711EAF917F1E4498E88E6104D15255F5839EF939,
 	WhiteboardManager__ctor_mAA79B67A4AF7AC83FC4281CE2FF71EA1B55C6E7F,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
@@ -328,7 +320,7 @@ static Il2CppMethodPointer s_methodPointers[159] =
 	TextToggleIsOnTransition_OnPointerExit_m19C44B773913ECEB572F90DFC2ACB123E4D9E50F,
 	TextToggleIsOnTransition__ctor_mC67BFBF0D3B3D64CDCA7F3A72AD6A8789AF07BDC,
 };
-static const int32_t s_InvokerIndices[159] = 
+static const int32_t s_InvokerIndices[155] = 
 {
 	15742,
 	15742,
@@ -392,12 +384,8 @@ static const int32_t s_InvokerIndices[159] =
 	15742,
 	15742,
 	15742,
-	15742,
-	11740,
 	12160,
-	2589,
-	15742,
-	15742,
+	5531,
 	15742,
 	27058,
 	15742,
@@ -494,7 +482,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	159,
+	155,
 	s_methodPointers,
 	0,
 	NULL,

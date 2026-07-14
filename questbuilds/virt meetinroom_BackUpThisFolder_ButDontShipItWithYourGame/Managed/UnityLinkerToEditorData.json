@@ -1069,7 +1069,8 @@
           {
             "name": "Rigidbody",
             "scenes": [
-              "Assets/Scenes/login.unity"
+              "Assets/Scenes/login.unity",
+              "Assets/Scenes/Main.unity"
             ],
             "dependencyType": 0,
             "icon": null
